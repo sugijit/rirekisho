@@ -17,7 +17,7 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
+				<a href="/">ホーム</a>
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/cv') ? 'page' : undefined}>
 				<a href="/cv">履歴書</a>
